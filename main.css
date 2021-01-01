@@ -1,0 +1,621 @@
+
+* {padding:0;margin:0;}
+
+*{scroll-behavior: smooth;}
+
+
+html{ 
+  font-family: 'Langar', cursive;
+}
+
+
+#navbar {
+  background-color: yellow;
+
+
+  height: 105px;
+  box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.25);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   position: relative;
+ 
+
+}
+.topnav {
+
+  display: none;
+}
+.title1 {
+  margin-right: 10%;
+}
+.select{
+  height: 70px;
+  width: 525px;
+  border-color: #B3B3B3;
+  border-radius: 10px;
+  border-style :solid;
+}
+.mini {
+  height: 70px;
+  width: 238px;
+  border-color: #B3B3B3;
+  border-radius: 10px;
+  border-style :solid;
+
+}
+.minibox{
+  display: flex;
+  justify-content: space-between;
+
+}
+.rejestruj-button{
+  width: 221px;
+  height: 38px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.zaloguj-button{
+  width: 221px;
+  height: 38px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-sympo{
+   font-size: 30px;
+  color: yellow;
+  text-align: center;
+}
+.sympo{
+  margin-bottom: 40px;
+  margin-top: 140px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px;
+ 
+  
+}
+.dawid{
+  color: #B3B3B3;
+  
+}
+.term{
+  font-size: 200%;  text-align: center;
+
+}
+.tit{
+  font-size: 300%;
+
+}
+.oho{
+  font-size: 250%;
+}
+.buttons{
+  display: flex;
+  justify-content: space-between;
+}
+.language
+{
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 40px;
+  border: 1px;
+  background-color:yellow;
+  text-align: center;
+}
+.loginpage{
+  display: flex;
+  flex-direction:column;
+
+}
+.menu ul {
+  display: flex;
+  
+
+}
+
+.menu li {
+  list-style: none;
+  margin: 10px;
+}
+
+
+.toggle-button {
+  position: absolute;
+  top: 35px;
+  right: 2rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 37px;
+  height: 35px;
+}
+.toggle-button .bar {
+  height: 4px;
+  width: 100%;
+  background-color: red;
+  border-radius: 30px;
+}
+
+.menu{
+  margin-right: 5%;
+}
+.menu li a {
+  display: block;
+    text-decoration: none;
+    padding: 2.3rem;
+    color: black;
+    cursor: pointer;
+    font-size: 30px;
+}
+.every{
+  margin: auto;
+  width: 800px; 
+  border: 3px solid green;
+  padding: 10px;
+  margin-top: 150px;
+}
+#main2{
+  background-color: yellow;
+  width: auto;
+  border-style: solid;
+  border-width: 0.5px;
+  border-color:black;
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  
+  max-width: 1020px;
+}
+.majne{
+  background-color: yellow;
+  width: auto;
+  border-style: solid;
+  border-width: 0.5px;
+  border-color:black;
+ 
+  margin-top: 10%;
+  margin-bottom: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  
+  max-width: 1020px;
+}
+.aboutcontact{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  
+  
+}
+#circle {
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+  margin-right: 4rem;
+
+}
+.circle2{
+  width: 30px;
+	height: 30px;
+	border-radius: 100%;
+  margin-right: 4rem;
+  position: absolute;
+  top: 35px;
+  right: 4rem;
+  display: none;
+
+}
+#edit{
+  border-style: solid;
+  border-width: 0.5px;
+  border-color:#B3B3B3;
+  border-radius: 10px;
+  width: 171px;
+  height: 30px;
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+
+}
+#edit a{
+    color:black;
+  text-align: center;
+  position: relative;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#person{
+  margin-bottom: 50px;
+ margin-left: 90px;
+ margin-right: 90px;
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-around;
+  align-items: center;
+}
+#about{
+  height: 100px;
+  
+ 
+  
+}
+#contact{
+  height: 100px;
+ 
+
+}
+
+#who {
+  text-align: center;
+font-size:  large;
+  padding: 33px;
+
+}
+#jpeg{
+  float: left;
+  
+}
+.Person2{
+  border-radius: 50%;
+  width: 183px;
+  height: 183px;
+}
+.naglowek{
+  font-size: 30px;
+  text-align: center;
+}
+.cat{
+  text-align: center;
+
+}
+.logo{
+  height:71px; width:175px;  
+  margin-left: 5%;
+  background-color: yellow;
+
+}
+/* okienko transmisji*/
+.transwindow{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.trans{
+  margin-top: 100px;
+  width:560px; 
+  height:315px;
+  
+}
+.titletrans{
+font-size: 50px;
+
+margin-top: 120px ;
+text-align: center
+}
+/*Chat box styling */
+.chat{
+  width: 95%;
+  height: 155px;
+    position: relative;
+  margin:auto;
+}  
+.chat-header{
+  font-size: 50px;
+text-align: center;
+margin-top: 4rem;
+margin-bottom: 4rem;
+}
+.chat-window{
+  
+  position: relative;
+  overflow-y: scroll;
+  
+  background-color:yellow;
+  border: solid;
+  border-radius:  20px;
+  -webkit-box-shadow: 22px 24px 18px -10px rgba(0,0,0,0.35);
+  -moz-box-shadow: 22px 24px 18px -10px rgba(0,0,0,0.35);
+  box-shadow: 22px 24px 18px -10px rgba(0,0,0,0.35);
+}
+
+#messageForm{
+  
+  position: sticky;
+  bottom: 0;
+  padding: 15px;
+  
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top:10;
+  display:flex;
+  align-items: flex-end;
+  justify-content: space-around;
+
+}
+
+#msg-input{
+  padding: 10px;
+  border-radius: 20px;
+  width: 85%;
+  margin-left: 2%;
+}
+
+#msg-btn{
+  padding: 9px;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: rgb(62, 180, 248);
+  font-size: large;
+  color: white;
+  font-weight: bold;
+  border: none;
+  text-align: left;
+
+}
+
+#msg-btn:hover{
+  background-color: rgb(5, 153, 116);
+}
+
+.msg{
+  list-style-type: none;
+}
+
+.msg-span{
+  display: inline-block;
+  padding:10px;
+  border-radius: 20px;
+  font-size: large;
+  background-color: #4223ec;
+  color: black;
+  margin: 15px 5px 0px 0px;
+  text-align: left;
+}
+.name{
+  font-weight: bold;
+}
+
+.my{
+  text-align: right;
+}
+
+.my span{
+  display: inline-block;
+  padding:10px;
+  border-radius: 20px;
+  font-size: large;
+  background-color: blue;
+  color: white;
+  margin: 15px 5px 0px 0px;
+  text-align: left;
+}
+.false{
+  
+  text-align: left;
+}
+.false span{
+  display: inline-block;
+  padding:10px;
+  border-radius: 20px;
+  font-size: large;
+  background-color: orange;
+  color: black;
+  margin: 15px 5px 0px 5px;
+  text-align: left;
+}
+.my i{
+  font-weight: bold;
+
+}
+/* width */
+#chat-window::-webkit-scrollbar {
+  width: 20px;
+  height: 50%;
+}
+#chat{
+  position: absolute;
+  top: 110px;
+  right: 250px;
+}
+/* Track */
+#chat-window::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 20px;
+}
+
+/* Handle */
+#chat-window::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 5px grey; 
+  background:rgb(82, 196, 133);
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+#chat-window::-webkit-scrollbar-thumb:hover {
+  background:rgb(5, 190, 144); 
+}
+@media all and (max-width: 1420px) {
+  #msg-btn{
+    
+    margin-left: 2%;
+  }
+ }
+
+@media all and (max-width: 1220px) {
+  #edit {
+    width: 250px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+ }
+  
+ 
+  .menu li a {
+    padding: 0.8rem;
+  }
+}
+
+@media all and (max-width: 990px) {
+  #msg-input{
+    font-size: small;
+    width: 80%;
+    margin-left: 2%;
+  }
+  .my span{
+    display: inline-block;
+    padding:5px;
+    border-radius: 20px;
+    font-size: small;
+    
+    margin: 5px 5px 0px 0px;
+    text-align: left;
+  }
+  .false span{
+    display: inline-block;
+    padding:5px;
+    border-radius: 20px;
+    font-size: small;
+   
+    color: black;
+    margin: 5px 5px 0px 2px;
+    text-align: left;
+  }
+  .chat-header{
+    font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  }
+}
+@media  all and (max-width: 830px) {
+  #navbar {
+    display:none;
+  
+  }
+  .logo{
+    margin-left: 1%;
+    height:7%; width:7%; 
+  }
+/* Style the navigation menu */
+.topnav {
+  display:block;
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color:yellow;
+  color: white;
+}
+}
+@media all and (max-width: 650px) {
+  #main2 {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-bottom: 0px;
+    border-color:white;
+    font-size:small;
+    padding: 5%;
+}
+#msg-input{
+  width: 65%;
+  margin-left: 1%;
+}
+
+}
+@media all and (max-width: 540px) {
+.select{
+  width: 300px;
+}
+.buttons, .minibox{
+  
+  justify-content: space-around;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+.rejestruj-button, .zaloguj-button, .mb {
+margin-left: auto;
+margin-right: auto;
+} 
+#kod, #miejscowosc{
+  margin-left: auto;
+margin-right: auto;
+}
+}
+@media all and (max-width: 375px) {
+.Person2{
+  width: 120px;
+}
+
+#jpeg{
+  margin: auto;
+}
+.circle2{
+  right: 2rem;
+
+}
+#msg-input{
+  font-size: small;
+  width: 50%;
+  margin-left: 1%;
+}
+#msg-btn {
+  margin-left: 5%;
+  
+}
+}
