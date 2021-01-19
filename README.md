@@ -17,7 +17,7 @@ Project is created with:
 * Login and register
 * Chat
 * Agenda
-* Web striming
+* Web streaming
 
 ## Web adress
 To run this project go to https://konferencjaopszczolkach.000webhostapp.com/
