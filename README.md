@@ -17,7 +17,9 @@ Project is created with:
 * Login and register
 * Chat
 * Agenda
-![](images/towar.png)
+
+![](images/home.png)
+
 * Web streaming
 
 ## Web adress
