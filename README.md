@@ -12,7 +12,6 @@ Project is created with:
 * CSS3
 * JavaScript
 * Firebase
-* RWD
 	
 ## Features
 * Login and register
@@ -26,7 +25,7 @@ Project is created with:
 
 * Agenda
 
-![](images/home.png)
+![](images/home2.png)
 
 * Web streaming
 
