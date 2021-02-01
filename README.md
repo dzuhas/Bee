@@ -1,7 +1,7 @@
 # Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [Features](#Features)
+* [Features](#features)
 * [Web adress](#web-adress)
 ## General info
 This project is simple Virtual Conference Portal.
