@@ -15,12 +15,22 @@ Project is created with:
 	
 ## Features
 * Login and register
+
+![](images/rejestracjabee.png)
+![](images/loginbee.png)
+
 * Chat
+
+![](images/chat.png)
+
 * Agenda
 
 ![](images/home.png)
 
 * Web streaming
+
+![](images/transbee.png)
+
 
 ## Web adress
 To run this project go to https://konferencjaopszczolkach.000webhostapp.com/
