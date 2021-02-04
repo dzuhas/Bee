@@ -12,6 +12,7 @@ Project is created with:
 * CSS3
 * JavaScript
 * Firebase
+* RWD
 	
 ## Features
 * Login and register
