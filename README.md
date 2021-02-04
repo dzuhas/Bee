@@ -17,7 +17,6 @@ Project is created with:
 * Login and register
 
 ![](images/rejestracjabee.png)
-![](images/loginbee.png)
 
 * Chat
 
